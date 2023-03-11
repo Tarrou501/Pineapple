@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+*{
+    font-family: 'Kalam', cursive;
+}
+
+.dropdown-btn{
+    background-color: transparent;
+    border: 0;
+    color: #ffc400;
+    font-size: 1.4em;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: all .6s ease-in-out;
+    text-shadow: 0 0 1em #eeff00;
+}
+.dropdown-btn:hover{
+    color: #fff200dd;
+    text-shadow: 0 0 1.3em #ffee00;
+}
+
+.dropdown-menu{
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+   margin-top: 0px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+.dropdown-menu li{
+    font-size: 1em;
+    list-style-type: none;
+    margin: 10px 10px;
+    color: #ffc400;
+    font-weight: bolder;
+    transition: all .3s ease-in-out;
+    text-shadow: 0 0 .4em #ffc400;
+    text-align: center;
+}
+.dropdown-menu li:hover{
+    transform: scale(1.1);
+    color: #fff200dd;
+}
+
+.btn-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}

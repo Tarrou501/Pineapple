@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Pass"/>
+		<item key="selection" value="desativarEnderecos"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="desativarEnderecos"/>
+			<item value="atualizarEnderecos"/>
+			<item value="RegraNegocioException"/>
 			<item value="pass"/>
 			<item value="passwor"/>
 			<item value="BeforeTestClass"/>
@@ -20,9 +23,6 @@
 			<item value="setUp"/>
 			<item value="setUp1"/>
 			<item value="deveValidarEmail1"/>
-			<item value="deveValidarEmail"/>
-			<item value="setUp "/>
-			<item value="setup"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Cliente"/>

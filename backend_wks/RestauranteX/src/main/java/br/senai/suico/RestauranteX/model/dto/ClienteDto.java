@@ -1,5 +1,8 @@
 package br.senai.suico.RestauranteX.model.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,11 +13,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ClienteDto {
+	private Long id;
+
 	private String nome;
-	
+
 	private String email;
+
+	private String roles;
+
+	private boolean ativo;
 	
-	private String token;
-	
-	private String roles;	
+	private List<EnderecoDto> enderecos = new ArrayList<EnderecoDto>();
 }

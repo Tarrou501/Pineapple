@@ -2993,3 +2993,892 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springdoc
 2023-02-23 19:46:31,562 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-02-23 19:46:31,565 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
 2023-02-23 20:14:49,672 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-11 02:12:09,636 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-11 02:12:51,656 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-03-11 02:12:52,859 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:395)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,860 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:396)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,941 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration br.senai.suico.RestauranteX.model.repository references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:390)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,944 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:395)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,945 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:396)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,962 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration ClienteRepositoryTest references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:390)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,963 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration java references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration java references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:395)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,965 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration java references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration java references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:396)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,971 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration java references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration java references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:390)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,972 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:395)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,974 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:396)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,980 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplication references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:390)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,981 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:395)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,982 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:396)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:389)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:52,988 [Worker-15: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+org.eclipse.core.runtime.CoreException: Launch configuration RestauranteXApplicationTests references non-existing project RestauranteX.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:390)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:419)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:305)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:76)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-11 02:12:53,095 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/main/java
+2023-03-11 02:12:53,096 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-03-11 02:12:53,100 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-03-11 02:12:53,104 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/test/java
+2023-03-11 02:12:53,973 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2023-03-11 02:12:57,318 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:12:57,353 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:12:57,357 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:13:24,194 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-11 02:13:24,569 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-03-11 02:13:25,149 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/main/java
+2023-03-11 02:13:25,150 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-03-11 02:13:25,150 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-03-11 02:13:25,152 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/test/java
+2023-03-11 02:13:25,440 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-03-11 02:13:26,354 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:13:26,377 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:13:26,380 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:24:15,463 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:24:15,542 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:24:15,544 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:25:16,637 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:25:16,709 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:25:16,712 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:25:51,375 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:25:51,449 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:25:51,452 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:26:07,699 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:26:07,767 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:26:07,769 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:26:43,259 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:26:43,347 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:26:43,349 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:28:13,403 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:28:13,450 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:28:13,455 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:28:26,317 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:28:26,381 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:28:26,384 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:30:44,114 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-11 02:31:59,217 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:31:59,305 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:31:59,310 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:32:39,810 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:32:39,892 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:32:39,897 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:33:16,927 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:33:16,995 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:33:16,999 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:33:59,190 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:33:59,261 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:33:59,264 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:34:07,076 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:34:07,144 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:34:07,147 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:34:30,739 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:34:30,804 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:34:30,807 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:37:51,095 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:37:51,155 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:37:51,157 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:40:30,442 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:40:30,482 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:40:30,487 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:41:22,212 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:41:22,237 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:41:22,245 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 02:42:27,556 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 02:42:27,579 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 02:42:27,582 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:04:23,672 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-11 03:06:59,353 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:06:59,376 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:06:59,379 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:07:36,036 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:07:36,061 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:07:36,065 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:08:18,233 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:08:18,256 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:08:18,258 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:08:38,379 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:08:38,407 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:08:38,411 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:09:22,356 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:09:22,494 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:09:22,500 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:10:03,987 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:10:04,085 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:10:04,089 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:10:13,274 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:10:13,365 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:10:13,369 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:11:14,033 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:11:14,060 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:11:14,068 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:11:44,959 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:11:44,981 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:11:44,984 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:12:34,203 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:12:34,234 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:12:34,237 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:13:02,011 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:13:02,029 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:13:02,031 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:13:59,739 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:13:59,760 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:13:59,763 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:17:01,482 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:17:01,515 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:17:01,518 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:17:43,174 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:17:43,225 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:17:43,237 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:18:00,134 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:18:00,195 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:18:00,197 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:18:13,251 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:18:13,267 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:18:13,271 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:28:41,709 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:28:41,729 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:28:41,731 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:29:11,028 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:29:11,047 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:29:11,049 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:30:08,904 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:30:08,927 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:30:08,929 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:30:21,061 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:30:21,083 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:30:21,086 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:30:46,591 [Worker-15: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:30:46,629 [Worker-15: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:30:46,631 [Worker-15: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:34:29,959 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:34:29,981 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:34:29,985 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:35:59,944 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:35:59,966 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:35:59,968 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:38:27,887 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:38:27,979 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:38:28,012 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:39:05,920 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:39:05,963 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:39:05,976 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:40:51,814 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:40:51,833 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:40:51,836 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:43:49,096 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:43:49,114 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:43:49,116 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:46:49,140 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:46:49,175 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:46:49,178 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 03:49:40,310 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 03:49:40,330 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 03:49:40,332 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:01:17,088 [Worker-36: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:01:17,118 [Worker-36: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:01:17,121 [Worker-36: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:02:43,838 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:02:43,877 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:02:43,879 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:07:33,324 [Worker-37: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:07:33,361 [Worker-37: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:07:33,364 [Worker-37: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:17:57,525 [Worker-25: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:17:57,544 [Worker-25: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:17:57,545 [Worker-25: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:26:01,337 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:26:01,356 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:26:01,360 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:27:45,810 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:27:45,834 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:27:45,836 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:32:09,626 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:32:09,649 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:32:09,652 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:35:17,544 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:35:17,568 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:35:17,570 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:40:11,737 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:40:11,759 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:40:11,761 [Worker-42: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:48:10,055 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:48:10,067 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:48:10,068 [Worker-50: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 04:51:55,721 [Worker-54: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 04:51:55,727 [Worker-54: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 04:51:55,729 [Worker-54: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 15:47:59,418 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-11 15:48:13,310 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 15:48:13,402 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 15:48:13,408 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 15:51:57,404 [Worker-3: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 15:51:57,419 [Worker-3: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 15:51:57,422 [Worker-3: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:07:06,719 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:07:06,738 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:07:06,740 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:13:23,469 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:13:23,488 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:13:23,490 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:13:30,303 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:13:30,307 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:13:30,308 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:14:51,964 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:14:51,990 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:14:51,993 [Worker-30: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:19:43,875 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:19:43,895 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:19:43,916 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:21:07,811 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:21:07,829 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:21:07,834 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:21:18,990 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:21:19,013 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:21:19,015 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:21:36,917 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:21:36,951 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:21:36,953 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:26:06,111 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:26:06,132 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:26:06,135 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:26:57,195 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:26:57,214 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:26:57,217 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:49:50,021 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:49:50,037 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:49:50,039 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:55:52,695 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:55:52,715 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:55:52,717 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:56:20,503 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:56:20,521 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:56:20,523 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:56:47,107 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:56:47,125 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:56:47,128 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:57:17,007 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:57:17,024 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:57:17,026 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:57:48,445 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:57:48,467 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:57:48,470 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:58:00,545 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:58:00,569 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:58:00,572 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:58:43,873 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:58:43,878 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:58:43,879 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:59:38,963 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:59:39,022 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:59:39,025 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 16:59:53,548 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 16:59:53,568 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 16:59:53,570 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:03:14,857 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:03:14,870 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:03:14,871 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:03:27,572 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:03:27,606 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:03:27,608 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:04:40,054 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:04:40,075 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:04:40,077 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:07:56,428 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:07:56,464 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:07:56,466 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:09:07,231 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:09:07,258 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:09:07,261 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:13:47,491 [Worker-39: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:13:47,514 [Worker-39: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:13:47,519 [Worker-39: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:16:16,220 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:16:16,238 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:16:16,239 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:19:15,515 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:19:15,531 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:19:15,532 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:19:30,610 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:19:30,629 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:19:30,631 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:19:40,268 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:19:40,301 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:19:40,303 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:23:58,994 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:23:59,008 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:23:59,010 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:24:29,812 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:24:29,829 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:24:29,831 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:24:56,610 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:24:56,632 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:24:56,633 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:26:30,708 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:26:30,727 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:26:30,728 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:27:03,831 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:27:03,851 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:27:03,853 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:32:49,303 [Worker-46: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:32:49,338 [Worker-46: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:32:49,344 [Worker-46: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:40:10,632 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:40:10,652 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:40:10,654 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:43:50,650 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:43:50,668 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:43:50,670 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:44:09,302 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:44:09,319 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:44:09,321 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:49:12,611 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:49:12,638 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:49:12,642 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 17:58:38,828 [Worker-55: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 17:58:38,860 [Worker-55: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 17:58:38,863 [Worker-55: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:05:05,507 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:05:05,525 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:05:05,527 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:05:21,778 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:05:21,797 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:05:21,798 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:08:19,960 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:08:19,979 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:08:19,981 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:11:44,874 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:11:44,894 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:11:44,895 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:12:42,347 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:12:42,365 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:12:42,366 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:13:11,517 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:13:11,537 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:13:11,539 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:13:35,093 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:13:35,110 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:13:35,112 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:16:31,323 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:16:31,337 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:16:31,339 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:18:36,353 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:18:36,364 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:18:36,366 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:19:04,622 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:19:04,635 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:19:04,636 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:19:22,697 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:19:22,716 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:19:22,718 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:19:59,497 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:19:59,513 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:19:59,515 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:21:14,879 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:21:14,911 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:21:14,913 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:22:43,254 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:22:43,270 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:22:43,271 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:23:05,183 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:23:05,199 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:23:05,200 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:23:24,533 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:23:24,551 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:23:24,553 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:23:41,466 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:23:41,484 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:23:41,485 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:24:19,411 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:24:19,427 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:24:19,429 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:24:51,379 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:24:51,394 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:24:51,396 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:25:19,905 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:25:19,916 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:25:19,917 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:26:32,888 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:26:32,905 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:26:32,908 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:41:18,000 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:41:18,019 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:41:18,021 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:41:42,801 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:41:42,813 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:41:42,814 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:44:33,564 [Worker-88: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:44:33,579 [Worker-88: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:44:33,580 [Worker-88: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:51:38,762 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:51:38,825 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:51:38,828 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:51:59,832 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:51:59,850 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:51:59,852 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:56:43,178 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:56:43,193 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:56:43,195 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 18:57:27,441 [Worker-94: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 18:57:27,462 [Worker-94: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 18:57:27,464 [Worker-94: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:04:10,094 [Worker-95: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:04:10,121 [Worker-95: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:04:10,122 [Worker-95: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:18:27,400 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:18:27,416 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:18:27,417 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:22:57,944 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:22:57,958 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:22:57,959 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:30:03,881 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:30:03,900 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:30:03,901 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:35:42,774 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:35:42,797 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:35:42,800 [Worker-108: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:39:12,910 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-11 19:41:49,361 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:41:49,409 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:41:49,412 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-03-11 19:53:19,523 [Worker-18: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-03-11 19:53:19,552 [Worker-18: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-11 19:53:19,559 [Worker-18: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources

@@ -8,7 +8,7 @@ import br.senai.suico.RestauranteX.model.entity.Cliente;
 
 public interface  ClienteRepository extends JpaRepository<Cliente,Long> {
 
-	// Query método
+	// Querys métodos
 	boolean existsByEmail(String emai);
 	
 	Optional<Cliente>  findByEmail(String email);	

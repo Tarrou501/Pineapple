@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.test.context.ActiveProfiles"/>
-    <fullyQualifiedTypeName name="org.springframework.test.context.junit.jupiter.SpringExtension"/>
-    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.entity.Cliente"/>
-    <fullyQualifiedTypeName name="org.springframework.web.server.ResponseStatusException"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Replace"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
@@ -23,7 +12,6 @@
     <fullyQualifiedTypeName name="org.mockito.junit.MockitoJUnitRunner"/>
     <fullyQualifiedTypeName name="org.mockito.Mock"/>
     <fullyQualifiedTypeName name="org.mockito.Spy"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
     <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
@@ -39,7 +27,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.FilterRegistrationBean"/>
     <fullyQualifiedTypeName name="org.springframework.web.filter.CorsFilter"/>
     <fullyQualifiedTypeName name="org.springframework.core.Ordered"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.responses.ApiResponse"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.media.Content"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.Parameter"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.repository.CategoriaRepository"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.entity.Categoria"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.repository.ProdutoRepository"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.entity.Produto"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.repository.EnderecoRepository"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.repository.ClienteRepository"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.dto.ClienteDto"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.entity.Endereco"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.dto.EnderecoDto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

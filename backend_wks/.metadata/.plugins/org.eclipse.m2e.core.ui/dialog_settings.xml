@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX"/>
 			<item value="C:\Projetos\senai\3DN\Projeto_Pineapple\RestauranteY"/>
 			<item value="C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\.RestauranteY"/>
-			<item value="C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX"/>
 			<item value="C:\Projetos\senai\3DN\Projeto\RestauranteX"/>
 			<item value="C:\Projetos\senai\3DN\Projeto\Restaurante"/>
 		</list>
