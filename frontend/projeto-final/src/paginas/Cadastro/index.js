@@ -21,7 +21,7 @@ export default function Cadastro() {
 
 
         api
-            .get("/api/Clientes/todos")
+            .get("/api/clientes/todos")
 
             .then((response) => {
                 if (response.data != null) {
@@ -67,7 +67,7 @@ export default function Cadastro() {
 
 
                 api
-                .post("/api/Clientes/cadastrar", usuario)
+                .post("/api/clientes/cadastrar", usuario)
                 .then((response) => {
                     if (response.data != null) {
                         alert("Usuário cadastrado com sucesso");

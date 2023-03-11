@@ -45,7 +45,7 @@ export default function Login(){
          //  api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
          
             api
-            .post("/api/Clientes/autenticar",userLogin)
+            .post("/api/clientes/autenticar",userLogin)
             .then((response) =>
             {
                 if (response.data.token != null)
