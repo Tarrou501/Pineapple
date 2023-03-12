@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <main>
-      <Header/>
+      <Header />
       <h1>{user}</h1>
     </main>
   );

@@ -41,12 +41,13 @@ public class ClienteController {
 	}
 	
 
-	@Operation(summary = "Find All  Client address")
+	@Operation(summary = "Find All Client address")
 	@GetMapping("/enderecos/{id}")
 	public List<EnderecoDto> buscarEndereco(@PathVariable long id) {
 		return  servico.buscarEnderecoPorClienteId(id);
 	
 	}
+	
 
 	@Operation(summary = "Find Client by Id")
 	@GetMapping("/{id}")

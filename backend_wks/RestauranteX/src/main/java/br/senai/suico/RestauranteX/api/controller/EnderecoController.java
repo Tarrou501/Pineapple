@@ -16,12 +16,13 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import br.senai.suico.RestauranteX.model.dto.EnderecoDto;
 import br.senai.suico.RestauranteX.model.entity.Endereco;
 import br.senai.suico.RestauranteX.service.impl.EnderecoServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
-@RequestMapping("/api/Enderecos")
+@RequestMapping("/api/enderecos")
 public class EnderecoController {
 	
 	@Autowired
@@ -31,23 +32,23 @@ public class EnderecoController {
 
 	@Operation(summary = "Find endereco by Id")
 	@GetMapping("/{id}")
-	public Optional<Endereco> buscaPorId(@PathVariable long id) {
+	public EnderecoDto buscaPorId(@PathVariable long id) {
 		return servico.buscarPorId(id);
 	}
 
 	@PostMapping("/cadastrar")
-	public Endereco createEndereco(@RequestBody Endereco endereco) {
+	public EnderecoDto createEndereco(@RequestBody Endereco endereco) {
 		return servico.salvar(endereco);
 	}
 	
 
 	@PutMapping("/{id}")
-	public Endereco updateEndereco(@RequestBody Endereco categ, @PathVariable long id) {
-		    if (id != categ.getId()) {
+	public EnderecoDto updateEndereco(@RequestBody Endereco endereco, @PathVariable long id) {
+		    if (id != endereco.getId()) {
 	            throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
 	        }
-	        categ.setId(id);
-	        return servico.atualizar(categ);
+		    endereco.setId(id);
+	        return servico.atualizar(endereco);
 	}
 	
 	

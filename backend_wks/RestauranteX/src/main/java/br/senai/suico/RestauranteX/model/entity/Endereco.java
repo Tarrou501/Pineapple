@@ -49,7 +49,7 @@ public class Endereco {
 	private boolean ativo;
 
 	public EnderecoDto toMapperDto() {
-		return EnderecoDto.builder().id(id).logradouro(logradouro).numero(numero).complemento(complemento)
+		return EnderecoDto.builder().id(id).logradouro(logradouro).numero(numero).complemento(complemento).cep(cep)
 				.bairro(bairro).municipio(municipio).uf(uf).ativo(ativo).build();
 	}
 

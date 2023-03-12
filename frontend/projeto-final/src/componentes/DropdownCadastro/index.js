@@ -10,7 +10,7 @@ function ButtonCadastro() {
         </Dropdown.Toggle>
   
         <Dropdown.Menu className='dropdown-menu'>
-          <Dropdown.Item href="#/action-1"><li> <Link to="/">Categorias</Link></li></Dropdown.Item>
+          <Dropdown.Item href="#/action-1"><li> <Link to="/categorias">Categorias</Link></li></Dropdown.Item>
           <Dropdown.Item href="#/action-2"><li> <Link to="/">Produtos</Link></li></Dropdown.Item>
           <Dropdown.Item href="#/action-3"><li> <Link to="/">Clientes</Link></li></Dropdown.Item>
           <Dropdown.Item href="#/action-4"><li> <Link to="/">Pedidos</Link></li></Dropdown.Item>

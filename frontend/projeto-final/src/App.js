@@ -1,7 +1,11 @@
 import React,{useState} from "react";
 import Rotas from "./componentes/Rotas";
 import UserContext from "./contexts/UserContext";
+
+
 import './App.css'
+
+
 import { setAuthToken } from "./utils/setAuthToken";
 
 function App() {

@@ -21,7 +21,7 @@ import br.senai.suico.RestauranteX.service.impl.ProdutoServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
-@RequestMapping("/api/Produtos")
+@RequestMapping("/api/produtos")
 public class ProdutoController {
 	@Autowired
 	ProdutoServiceImpl servico;

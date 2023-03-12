@@ -21,7 +21,7 @@ import br.senai.suico.RestauranteX.service.impl.CategoriaServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
-@RequestMapping("/api/Categorias")
+@RequestMapping("/api/categorias")
 public class CategoriaController {
 	@Autowired
 	CategoriaServiceImpl servico;
@@ -39,7 +39,7 @@ public class CategoriaController {
 		return servico.buscarPorId(id);
 	}
 
-	@PostMapping("/cadastrar")
+	@PostMapping
 	public Categoria createCategoria(@RequestBody Categoria categoria) {
 		return servico.salvar(categoria);
 	}

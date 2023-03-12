@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
+import br.senai.suico.RestauranteX.model.dto.EnderecoDto;
 import br.senai.suico.RestauranteX.model.entity.Endereco;
 import br.senai.suico.RestauranteX.model.repository.EnderecoRepository;
 import br.senai.suico.RestauranteX.service.EnderecoService;
@@ -22,20 +23,20 @@ public class EnderecoServiceImpl implements EnderecoService {
 	}
 
 	@Override
-	public Endereco salvar(Endereco endereco) {
-		return repository.save(endereco);
+	public EnderecoDto salvar(Endereco endereco) {
+		return repository.save(endereco).toMapperDto();
 	}
 	
 	
 
 	@Transactional
 	@Override
-	public Endereco atualizar(Endereco endereco) {
+	public EnderecoDto atualizar(Endereco endereco) {
 		var EnderecoOptional = repository.findById(endereco.getId());
 		if (EnderecoOptional.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		}
-		return repository.save(endereco);
+		return repository.save(endereco).toMapperDto();
 	}
 
 	@Transactional
@@ -49,7 +50,9 @@ public class EnderecoServiceImpl implements EnderecoService {
 		}
 
 		try {
-		    repository.delete(EnderecoOptional.get());
+			var ender = EnderecoOptional.get();
+			ender.setAtivo(false);				
+			repository.save(ender);			
 		}
 		catch(Exception ex ){
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
@@ -57,16 +60,16 @@ public class EnderecoServiceImpl implements EnderecoService {
 		
 	}
 
-	@Override
-	public List<Endereco> buscar() {
-		
-		return repository.findAll();
-	}
+	
 
 	@Override
-	public Optional<Endereco> buscarPorId(long id) {
-		
-		return repository.findById(id);
+	public EnderecoDto buscarPorId(long id) {
+		var EnderecoOptional = repository.findById(id);
+		if (EnderecoOptional.isEmpty()) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+		}
+
+		return EnderecoOptional.get().toMapperDto();
 	}
 
 
