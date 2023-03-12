@@ -39,11 +39,11 @@ export default function Header() {
         <header>
             <div className='menu'>
                 <ul className='header-links-box'>
-                    <li className='header-links'>Home</li>
+                    <li className='header-links'><Link to="/home">Home</Link></li>
                     <li className='header-links'>Sobre</li>
                     <li className='header-links'><img src={logo} /></li>
                     <li className='header-links'>Contato</li>
-                    <li className='header-links'>Menu</li>
+                    <li className='header-links'><ButtonCardapio></ButtonCardapio></li>
                     <li className='header-links'><Link to="/categoria">Categorias</Link></li>
                 </ul>
                 <div className='header-user'>
