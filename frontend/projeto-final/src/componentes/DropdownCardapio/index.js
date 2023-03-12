@@ -7,7 +7,7 @@ function ButtonCardapio() {
   return (
     <Dropdown>
       <Dropdown.Toggle id="dropdown-basic-button" title="Dropdown button" className='dropdown-btn'>
-        Cardápio
+        Menu
       </Dropdown.Toggle>
 
       <Dropdown.Menu className='dropdown-menu'>

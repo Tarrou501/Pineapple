@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.fundo-container{
+    display: flex;
+    align-items: center;
+    background-image: url(../../../assets/fundo.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background: rgb(34,25,25);
+    background: linear-gradient(145deg, rgba(34,25,25,1) 68%, rgba(79,72,35,1) 100%, rgba(255,255,255,1) 100%);
+    border-radius: 8px;
+    box-shadow: .1em .1em .1em rgb(52, 52, 52);
+    border: 1px solid rgb(52, 52, 52);
+    margin: auto;
+    height: 500px;
+    width: 370px;
+}
+.container img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+form{
+    margin-top: 120px;
+    position: absolute;
+    background-color: transparent;
+    margin-bottom: 15px;
+    width: 310px;
+    border:0;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 1em;
+    color: white;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: rgb(194, 194, 194);
+    padding-left: 25px;
+}
+.form-link{
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    bottom: 50px;
+}
+a{
+    color: rgb(225, 211, 14);
+    text-decoration: none;
+}
+.form-btn{
+    background-color: #948849;
+    border: 0;
+    border-radius: 8px;
+    padding: 7px 0;
+    box-shadow: 0 0 .3em #948849;
+    color: white;
+    font-size: 1em;
+    width: 270px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.input-icons{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #948849;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.input-icons input{
+    height: 25px;
+    margin: 0 5px;
+    background-color: transparent;
+    border: 0 none;
+    width: 70%;
+    padding: 5px 0 ;
+    color: white;
+    font-size: 1.1em;
+}
+input:focus{
+    box-shadow: 0;
+    border: 0;
+    outline: 0;
+}

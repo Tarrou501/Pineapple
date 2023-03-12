@@ -6,13 +6,11 @@
 .dropdown-btn{
     background-color: transparent;
     border: 0;
-    color: #ffc400;
     font-size: 1.4em;
     font-weight: bolder;
     cursor: pointer;
     margin-left: 30px;
     transition: all .6s ease-in-out;
-    text-shadow: 0 0 1em #eeff00;
 }
 .dropdown-btn:hover{
     color: #fff200dd;
@@ -20,11 +18,12 @@
 }
 
 .dropdown-menu{
-    background-color: rgb(14, 14, 14);
+    background-color:rgb(26, 25, 25);
     position: fixed;
-   margin-top: 0px;
+    margin-top: 5px;
     padding: 0 20px;
     border-radius: 8px;
+    width: 150px;
 }
 .dropdown-menu li{
     font-size: 1em;
@@ -47,4 +46,8 @@
     align-items: center;
     text-align: center;
     margin-right: 20px;
+}
+.btn-profile > span{
+    font-size: .8em;
+    color: rgb(208, 203, 203);
 }

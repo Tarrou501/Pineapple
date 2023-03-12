@@ -59,7 +59,7 @@ public class CategoriaServiceImpl implements CategoriaService {
 
 	@Override
 	@Transactional
-	public void deletar(long id) {
+	public Categoria deletar(long id) {
 		Objects.requireNonNull(id);
 		
 		var CategoriaOptional = repository.findById(id);
@@ -68,7 +68,9 @@ public class CategoriaServiceImpl implements CategoriaService {
 		}
 
 		try {
-		    repository.delete(CategoriaOptional.get());
+			repository.delete(CategoriaOptional.get());
+		   return CategoriaOptional.get();
+				   
 		}
 		catch(Exception ex ){
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST);

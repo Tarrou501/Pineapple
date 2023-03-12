@@ -12,7 +12,7 @@ public interface CategoriaService {
 	public Optional<Categoria>buscarPorNome(String nome);		
 
 	public Categoria atualizar(Categoria categoria);
-	public void deletar(long id);
+	public Categoria deletar(long id);
 	public List<Categoria> buscar();
 	public Optional<Categoria>buscarPorId(long id);
 }

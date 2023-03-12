@@ -23,10 +23,10 @@ function ButtonUser(prop) {
 
   return (
     <Dropdown>
-      <Dropdown.Toggle id="dropdown-basic-button" title="Dropdown button" className='dropdown-btn'>
+      <Dropdown.Toggle variant="sucess" id="dropdown-basic" title="Dropdown button" className='dropdown-btn'>
         <div className='btn-profile'>
         <FiUser color='#ffc400' size={22}></FiUser>
-        {user}
+        <span>{user}</span>
         </div>
         
       </Dropdown.Toggle>

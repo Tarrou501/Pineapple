@@ -42,7 +42,7 @@ export default function Login(){
                     history.push('/home'); 
                 });
 */
-         //  api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+           api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
          
             api
             .post("/api/clientes/autenticar",userLogin)
@@ -75,7 +75,7 @@ export default function Login(){
             .catch((err) => {
                 limparCaches();
                 var erro =err.toString();;
-              alert(erro)
+             
                 if (erro.includes('400') ||  erro.includes('404'))
                    alert(Mensagens.UsuarioESenhaInvalida )   
                 else  
@@ -97,7 +97,7 @@ export default function Login(){
                 <form onSubmit={Logar}>
                     <div className="input-icons">
                         <span><FiMail size={18} color='rgb(194, 194, 194)'/></span>
-                        <input  type="email" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
+                        <input  type="email" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
 
                     <div className="input-icons">
@@ -109,7 +109,7 @@ export default function Login(){
                 </form>
 
                 <p className='form-link'>Não possui cadastro? Registre-se 
-                <Link to="/cadastro"> aqui</Link> .</p>
+                <Link to="/cadastroCliente"> aqui</Link> .</p>
             </div>
         </div>
     )

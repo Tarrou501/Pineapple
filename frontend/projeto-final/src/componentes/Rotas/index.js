@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
-import CadastroCliente from "../../paginas/clientes/CadastroCliente";
+import CadastroCliente from "../../paginas/cliente/CadastroCliente";
 import Login from "../../paginas/Login";
 import Home from "../../paginas/Home";
-import ConsultaProduto from "../../paginas/produtos/ConsultaProduto";
-import CadastroCategoria from "../../paginas/categorias/cadastroCategoria";
 import RouteGuard from "../RouteGuard";
+import CadastroCategoria from "../../paginas/categoria/cadastroCategoria";
 
 
 export default function Rotas(){
@@ -16,8 +15,8 @@ export default function Rotas(){
             <Route component={Login} path="/" exact/>
             <Route component={Login} path="/login" exact/>
             <Route component={CadastroCliente} path="/cadastrocliente"/>
-            <Route component={ConsultaProduto} path="/produtos"/>
-            <Route component={CadastroCategoria} path="/categorias"/>
+            <Route component={CadastroCategoria} path="/categoria"/>
+            
             <RouteGuard component={Home} path="/home"/>         
         </BrowserRouter>
        

@@ -1,0 +1,11 @@
+.mainCadastro{
+    background-color: aqua;
+    display: flex;
+   flex-direction: column;
+   -ms-flex-item-align: center;
+}
+
+.divHeader{
+    background-color: rgb(26, 3, 60);
+    
+}
