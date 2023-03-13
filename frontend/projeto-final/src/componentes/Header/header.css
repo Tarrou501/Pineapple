@@ -23,7 +23,14 @@ header .menu{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+  
 }
+
+.header-links a{
+    color: rgb(208, 203, 203);
+}
+
 li{
     list-style-type: none;
     color: rgb(208, 203, 203);
@@ -31,7 +38,7 @@ li{
     font-size: 1.3em;
     font-weight: bolder;
 }
-.header-links > img{
+.header-links> img{
     margin-top: 110px;
     width: 300px;
     height: 300px;

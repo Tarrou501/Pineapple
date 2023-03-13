@@ -6,15 +6,16 @@
 .dropdown-btn{
     background-color: transparent;
     border: 0;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bolder;
     cursor: pointer;
     margin-left: 30px;
     transition: all .6s ease-in-out;
+    color:rgb(208, 203, 203);
 }
 .dropdown-btn:hover{
-    color: #fff200dd;
-    text-shadow: 0 0 1.3em #ffee00;
+    color: rgb(253, 248, 248);
+    text-shadow: 0 0 1.3em #d7d4c1;
 }
 
 .dropdown-menu{
@@ -39,7 +40,7 @@
 }
 .dropdown-menu li:hover{
     transform: scale(1.1);
-    color: #fff200dd;
+    color:  rgb(208, 203, 203);
 }
 
 .btn-profile{

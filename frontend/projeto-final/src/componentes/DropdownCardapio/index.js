@@ -22,8 +22,12 @@ function ButtonCardapio(props) {
 
   const rows = categorias.map((cate, index) => {
     return (
-      <Dropdown.Item key={index} href="#/action-1"><li>
-        <Link to="/">{cate.nome}</Link></li>
+      <Dropdown.Item key={index} href="#/action-1">
+        <li>
+          <Link to={`/produto/${cate.id}`} >
+            {cate.nome}
+          </Link>
+        </li> 
       </Dropdown.Item>
     )
   })
